@@ -19,11 +19,17 @@ the clean_data function cleans the data accordingly to the choices we made, and 
 
 DATA ANALYSIS FUNCTIONS
 We have provided six staple functions of machine learning that are quite popular : 
+
 least squares GD(y, tx, initial w,max iters, gamma)  Linear regression using gradient descent
+
 least squares SGD(y, tx, initial w,max iters, gamma) Linear regression using stochastic gradient descent
+
 least squares(y, tx) Least squares regression using normal equations
+
 ridge regression(y, tx, lambda ) Ridge regression using normal equations
+
 logistic regression(y, tx, initial w,max iters, gamma) Logistic regression using gradient descent or SGD (y ∈{0, 1})
+
 reg logistic regression(y, tx, lambda ,initial w, max iters, gamma) Regularized logistic regression using gradient descentor SGD (y ∈ {0, 1}, with regularized term λkwk2)
 
 
