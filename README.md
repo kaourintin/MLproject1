@@ -3,14 +3,14 @@ This project is designed to find the best possible solution to the boson higs da
 is the result of an experiment with a signal decay from the boson or if it is not.
 
 
-INITIAL SETUP : 
+**INITIAL SETUP**: 
 We assume you have a working python workflow, with numpy packages.
 
 => When using the provided script and algorithm, don't forget to change the address to the path to point towards the data.
 => implementation.py has to be in the same folder as the helpers.
 
 
-DATA CLEANING AND SPLITTING FUNCTION
+**DATA CLEANING AND SPLITTING FUNCTION**
 
 **split_matrix** function allows the user to split the dataset into four different sets depending on a specific value of PR_jet_Num. It also does the same operation on the y prediction set and the indices so that the user is able to reconstruct the sets after prediction.
 
