@@ -12,8 +12,9 @@ We assume you have a working python workflow, with numpy packages.
 
 DATA CLEANING AND SPLITTING FUNCTION
 
-**split_matrix** function allows the user to split the dataset into four different sets depending on a specific value of PR_jet_Num. It also does the same operation on the y prediction
-set and the indices so that the user is able to reconstruct the sets after prediction.
+**split_matrix** function allows the user to split the dataset into four different sets depending on a specific value of PR_jet_Num. It also does the same operation on the y prediction set and the indices so that the user is able to reconstruct the sets after prediction.
+
+
 **clean_data function** cleans the data accordingly to the choices we made, and outputs the cleaned dataset.
 
 
