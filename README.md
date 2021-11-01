@@ -12,9 +12,9 @@ We assume you have a working python workflow, with numpy packages.
 
 DATA CLEANING AND SPLITTING FUNCTION
 
-the split_matrix function allows the user to split the dataset into four different sets depending on a specific value of PR_jet_Num. It also does the same operation on the y prediction
+**split_matrix** function allows the user to split the dataset into four different sets depending on a specific value of PR_jet_Num. It also does the same operation on the y prediction
 set and the indices so that the user is able to reconstruct the sets after prediction.
-the clean_data function cleans the data accordingly to the choices we made, and outputs the cleaned dataset.
+**clean_data function** cleans the data accordingly to the choices we made, and outputs the cleaned dataset.
 
 
 DATA ANALYSIS FUNCTIONS
@@ -22,15 +22,22 @@ We have provided six staple functions of machine learning that are quite popular
 
 **least squares GD(y, tx, initial w,max iters, gamma)**  Linear regression using gradient descent
 
-** least squares SGD(y, tx, initial w,max iters, gamma)**  Linear regression using stochastic gradient descent
+**least squares SGD(y, tx, initial w,max iters, gamma)**  Linear regression using stochastic gradient descent
 
-** least squares(y, tx)**  Least squares regression using normal equations
+**least squares(y, tx)**  Least squares regression using normal equations
 
-** ridge regression(y, tx, lambda )**  Ridge regression using normal equations
+**ridge regression(y, tx, lambda )**  Ridge regression using normal equations
 
-** logistic regression(y, tx, initial w,max iters, gamma)**  Logistic regression using gradient descent or SGD (y ∈{0, 1})
+**logistic regression(y, tx, initial w,max iters, gamma)**  Logistic regression using gradient descent or SGD (y ∈{0, 1})
 
-** reg logistic regression(y, tx, lambda ,initial w, max iters, gamma)**  Regularized logistic regression using gradient descentor SGD (y ∈ {0, 1}, with regularized term λkwk2)
+**reg logistic regression(y, tx, lambda ,initial w, max iters, gamma)**  Regularized logistic regression using gradient descentor SGD (y ∈ {0, 1}, with regularized term λkwk2)
+
+
+In our particular case, this project develops specifically the process around the ridge regression with degree 2 polynomial expansion and pairwise column multiplication. With optimization using 4-fold split.
+
+
+
+
 
 
 
