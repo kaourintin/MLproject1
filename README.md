@@ -18,7 +18,8 @@ We assume you have a working python workflow, with numpy packages.
 **clean_data function** cleans the data accordingly to the choices we made, and outputs the cleaned dataset.
 
 
-DATA ANALYSIS FUNCTIONS
+**DATA ANALYSIS FUNCTIONS**
+
 We have provided six staple functions of machine learning that are quite popular : 
 
 **least squares GD(y, tx, initial w,max iters, gamma)**  Linear regression using gradient descent
